@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Student Voting</string>
+    <string name="app_full_name">Student Representative Voting System</string>
+    <string name="app_tagline">Your Voice, Your Choice</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="tab_student">Student</string>
+    <string name="tab_admin">Admin</string>
+    <string name="hint_student_id">Student ID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_exit">Exit</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Invalid credentials. Please try again.</string>
+    <string name="student_not_found">Student ID not found. Please check and try again.</string>
+    <string name="field_required">This field is required</string>
+
+    <!-- Main Menu -->
+    <string name="menu_title">Main Menu</string>
+    <string name="menu_candidates">Candidates</string>
+    <string name="menu_students">Students</string>
+    <string name="menu_election">Election</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_candidates_desc">View and manage candidates</string>
+    <string name="menu_students_desc">Student information and voting</string>
+    <string name="menu_election_desc">Admin election controls</string>
+    <string name="menu_exit_desc">Logout and exit</string>
+
+    <!-- Candidates -->
+    <string name="candidates_title">Candidates</string>
+    <string name="candidate_list">Candidate List</string>
+    <string name="view_candidate">View Candidate by ID</string>
+    <string name="update_candidate">Update Candidate</string>
+    <string name="candidate_name">Name</string>
+    <string name="candidate_position">Position</string>
+    <string name="candidate_department">Department</string>
+    <string name="candidate_year">Year</string>
+    <string name="candidate_manifesto">Manifesto</string>
+    <string name="candidate_votes">Votes</string>
+    <string name="no_candidates">No candidates found</string>
+    <string name="candidate_not_found">Candidate not found</string>
+    <string name="update_success">Candidate updated successfully!</string>
+    <string name="hint_candidate_id">Enter Candidate ID</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_update">Update</string>
+
+    <!-- Students -->
+    <string name="students_title">Students</string>
+    <string name="student_list">Student List</string>
+    <string name="student_vote">Vote</string>
+    <string name="student_results">Results</string>
+    <string name="student_status">My Status</string>
+    <string name="student_name">Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_department">Department</string>
+    <string name="student_year">Year</string>
+    <string name="has_voted">Has Voted</string>
+    <string name="not_voted">Not Voted</string>
+    <string name="no_students">No students found</string>
+    <string name="vote_success">Vote cast successfully!</string>
+    <string name="already_voted">You have already voted!</string>
+    <string name="vote_confirm_title">Confirm Vote</string>
+    <string name="vote_confirm_message">Are you sure you want to vote for %s? This action cannot be undone.</string>
+    <string name="btn_vote">Cast Vote</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Admin -->
+    <string name="admin_title">Election Admin</string>
+    <string name="admin_track">Track Votes</string>
+    <string name="admin_report">Election Report</string>
+    <string name="admin_modify">Modify Candidates</string>
+    <string name="admin_announce">Announce Winner</string>
+    <string name="admin_track_desc">Real-time vote tracking</string>
+    <string name="admin_report_desc">Full election report</string>
+    <string name="admin_modify_desc">Add or remove candidates</string>
+    <string name="admin_announce_desc">Announce election winner</string>
+    <string name="total_votes">Total Votes Cast</string>
+    <string name="voter_turnout">Voter Turnout</string>
+    <string name="winner">Winner</string>
+    <string name="no_votes_yet">No votes have been cast yet</string>
+    <string name="add_candidate">Add New Candidate</string>
+    <string name="delete_candidate">Delete</string>
+    <string name="delete_confirm_title">Delete Candidate</string>
+    <string name="delete_confirm_message">Are you sure you want to delete %s? This cannot be undone.</string>
+    <string name="candidate_added">Candidate added successfully!</string>
+    <string name="candidate_deleted">Candidate deleted successfully!</string>
+    <string name="btn_add">Add Candidate</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="winner_announcement">The winner of the Student Representative Election is</string>
+    <string name="with_votes">with %d votes (%s%%)</string>
+
+    <!-- General -->
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="logout_confirm_title">Logout</string>
+    <string name="logout_confirm_message">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="votes_label">votes</string>
+    <string name="percent_label">%%</string>
+    <string name="of_total">of total</string>
+    <string name="registered_students">Registered Students</string>
+    <string name="voted_students">Students Who Voted</string>
+</resources>

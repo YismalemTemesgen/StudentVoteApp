@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_circle_white.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_circle_white.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_rounded_success.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_rounded_success.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_admin_track.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_track.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_circle_primary.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_circle_primary.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_winner_card.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_winner_card.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.studentvoting.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_main_menu.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_card_admin.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_card_admin.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_badge_warning.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_badge_warning.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_admin_modify.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_modify.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_students_menu.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_students_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_rounded_primary.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_rounded_primary.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_student_status.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_status.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_winner_row.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_winner_row.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_admin_menu.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_circle_accent.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_circle_accent.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_card_candidates.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_card_candidates.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_gradient_splash.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_gradient_splash.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_card_exit.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_card_exit.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_badge_success.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_badge_success.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_badge_accent.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_badge_accent.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_candidate_update.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_update.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_item_candidate.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/item_candidate.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_item_result_row.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/item_result_row.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_ic_app_logo.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_item_student.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_badge.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_progress_bar.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_progress_bar.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_student_list.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_list.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_admin_report.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_report.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_candidates_menu.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidates_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_candidate_list.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_list.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_gradient_primary.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_gradient_primary.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_rounded_accent.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_rounded_accent.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_student_vote.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_vote.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_candidate_detail.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_detail.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/drawable_bg_card_students.xml.flat",
+        "source": "com.studentvoting.app-main-45:/drawable/bg_card_students.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_admin_announce.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_announce.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_student_results.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_results.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_item_track_row.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/item_track_row.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.studentvoting.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-merged_res-43:/layout_activity_login.xml.flat",
+        "source": "com.studentvoting.app-main-45:/layout/activity_login.xml"
+    }
+]

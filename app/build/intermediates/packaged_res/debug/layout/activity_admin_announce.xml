@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:titleTextColor="@color/text_on_primary"
+        app:navigationIconTint="@color/text_on_primary" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:visibility="gone"
+        android:indeterminateTint="@color/primary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_md"
+            android:gravity="center">
+
+            <!-- Confetti dots -->
+            <LinearLayout
+                android:id="@+id/confetti_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/spacing_lg"
+                android:layout_marginBottom="@dimen/spacing_md"
+                android:visibility="gone">
+
+                <View android:layout_width="12dp" android:layout_height="12dp" android:background="@drawable/bg_circle_accent" android:layout_margin="4dp" />
+                <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/bg_circle_primary" android:layout_margin="4dp" />
+                <View android:layout_width="14dp" android:layout_height="14dp" android:background="@drawable/bg_badge_warning" android:layout_margin="4dp" />
+                <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/bg_circle_accent" android:layout_margin="4dp" />
+                <View android:layout_width="12dp" android:layout_height="12dp" android:background="@drawable/bg_circle_primary" android:layout_margin="4dp" />
+                <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/bg_badge_warning" android:layout_margin="4dp" />
+                <View android:layout_width="14dp" android:layout_height="14dp" android:background="@drawable/bg_circle_accent" android:layout_margin="4dp" />
+                <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/bg_circle_primary" android:layout_margin="4dp" />
+            </LinearLayout>
+
+            <!-- Announcement Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_announcement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_winner_card"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing_xl"
+                    android:gravity="center">
+
+                    <!-- Trophy emoji -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🏆"
+                        android:textSize="64sp" />
+
+                    <TextView
+                        android:id="@+id/tv_congrats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_sm"
+                        android:text="@string/congratulations"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/text_xxl"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.05" />
+
+                    <TextView
+                        android:id="@+id/tv_winner_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_xs"
+                        android:text="@string/winner_announcement"
+                        android:textColor="#E0FFFFFF"
+                        android:textSize="@dimen/text_md"
+                        android:gravity="center" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="2dp"
+                        android:background="#80FFFFFF"
+                        android:layout_marginTop="@dimen/spacing_md"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <!-- Winner Avatar -->
+                    <TextView
+                        android:id="@+id/tv_winner_initial"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_circle_white"
+                        android:gravity="center"
+                        android:textColor="@color/warning"
+                        android:textSize="36sp"
+                        android:textStyle="bold"
+                        android:text="W" />
+
+                    <TextView
+                        android:id="@+id/tv_winner_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_md"
+                        android:text="Winner Name"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/text_headline"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_winner_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_xs"
+                        android:text="Position"
+                        android:textColor="#E0FFFFFF"
+                        android:textSize="@dimen/text_xl"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_winner_dept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Department | Year"
+                        android:textColor="#CCffffff"
+                        android:textSize="@dimen/text_md"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_width="60dp"
+                        android:layout_height="1dp"
+                        android:background="#60FFFFFF"
+                        android:layout_marginTop="@dimen/spacing_md"
+                        android:layout_marginBottom="@dimen/spacing_md" />
+
+                    <TextView
+                        android:id="@+id/tv_winner_votes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 votes · 0.0%"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/text_xl"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <!-- Stars decoration -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_md"
+                        android:text="⭐ ⭐ ⭐"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- No winner message -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xl"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation"
+                app:cardBackgroundColor="@color/surface_variant">
+
+                <TextView
+                    android:id="@+id/tv_no_winner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_xl"
+                    android:gravity="center"
+                    android:text="🗳️\n\nNo votes have been cast yet.\nThe winner will be announced once voting begins."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_lg"
+                    android:lineSpacingMultiplier="1.5"
+                    android:visibility="gone" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Bottom confetti -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/spacing_lg"
+                android:layout_marginBottom="@dimen/spacing_lg">
+
+                <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/bg_circle_primary" android:layout_margin="6dp" android:alpha="0.5" />
+                <View android:layout_width="14dp" android:layout_height="14dp" android:background="@drawable/bg_circle_accent" android:layout_margin="6dp" android:alpha="0.5" />
+                <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/bg_badge_warning" android:layout_margin="6dp" android:alpha="0.5" />
+                <View android:layout_width="12dp" android:layout_height="12dp" android:background="@drawable/bg_circle_primary" android:layout_margin="6dp" android:alpha="0.5" />
+                <View android:layout_width="10dp" android:layout_height="10dp" android:background="@drawable/bg_circle_accent" android:layout_margin="6dp" android:alpha="0.5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

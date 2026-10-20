@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Ballot box background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,28 L80,28 L80,80 L16,80 Z" />
+    <!-- Ballot box top -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M12,20 L84,20 L84,32 L12,32 Z" />
+    <!-- Slot -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M36,20 L60,20 L60,24 L36,24 Z" />
+    <!-- Check mark -->
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="4"
+        android:pathData="M30,52 L42,64 L66,40"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Star top -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M48,4 L51,14 L62,14 L53,20 L56,30 L48,24 L40,30 L43,20 L34,14 L45,14 Z" />
+</vector>

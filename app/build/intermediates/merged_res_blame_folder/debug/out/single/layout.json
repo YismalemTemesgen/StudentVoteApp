@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_main_menu.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_student_status.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_status.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_admin_report.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_report.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_login.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/item_candidate.xml",
+        "source": "com.studentvoting.app-main-45:/layout/item_candidate.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_admin_track.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_track.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_student_results.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_results.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_candidate_list.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_list.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_student_vote.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_vote.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_candidate_update.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_update.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/item_student.xml",
+        "source": "com.studentvoting.app-main-45:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_candidates_menu.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidates_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_admin_announce.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_announce.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/item_track_row.xml",
+        "source": "com.studentvoting.app-main-45:/layout/item_track_row.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_students_menu.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_students_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_candidate_detail.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_candidate_detail.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/item_result_row.xml",
+        "source": "com.studentvoting.app-main-45:/layout/item_result_row.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_admin_menu.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_menu.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_admin_modify.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_admin_modify.xml"
+    },
+    {
+        "merged": "com.studentvoting.app-mergeDebugResources-42:/layout/activity_student_list.xml",
+        "source": "com.studentvoting.app-main-45:/layout/activity_student_list.xml"
+    }
+]
